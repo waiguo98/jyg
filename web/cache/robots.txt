@@ -1,0 +1,47 @@
+User-agent: Baiduspider
+Disallow: /
+User-agent: Sogou web spider
+Disallow: /
+User-agent: sogou spider
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: Ezooms
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: AhrefsBot
+Disallow: /
+User-agent: *
+Disallow: /_ah/
+Disallow: /admin/*
+
+Sitemap: /sitemap-1
+Sitemap: /sitemap-2
+Sitemap: /sitemap-3
+Sitemap: /sitemap-4
+Sitemap: /sitemap-5
+Sitemap: /sitemap-6
+Sitemap: /sitemap-7
+Sitemap: /sitemap-8
+Sitemap: /sitemap-9
+Sitemap: /sitemap-10
+Sitemap: /sitemap-11
+Sitemap: /sitemap-12
+Sitemap: /sitemap-13
+Sitemap: /sitemap-14
+Sitemap: /sitemap-15
+Sitemap: /sitemap-16
+Sitemap: /sitemap-17
+Sitemap: /sitemap-18
+Sitemap: /sitemap-19
+Sitemap: /sitemap-20
+Sitemap: /sitemap-21
+Sitemap: /sitemap-22
+Sitemap: /sitemap-23
+Sitemap: /sitemap-24
+Sitemap: /sitemap-25
