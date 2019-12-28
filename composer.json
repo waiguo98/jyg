@@ -1,0 +1,10 @@
+{
+  "require": {
+    "php": "7.3.13",
+    "ext-gd": "*",
+    "ext-mbstring": "*",
+    "ext-sqlite3": "*",
+    "ext-imagick": "*",
+	"ext-redis": "*"
+  }
+}
