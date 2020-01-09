@@ -6,15 +6,15 @@ define('ALPHABET', 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567
 $encrypt_page=true;
 $gzip_page=true;
 #$mirror = 'm.minghui.org';
-$mirror = 'jyg-com2.appspot.com';
+$mirror = 'www.bannedbook.org';
 #$mirror = 'mingbbs.9947.eu.org';
 #$mirror = 'm.wujieliulan.com';
-$enablecache=true;#·şÎñ¶Ë»º´æ¿ª¹Ø
-$cachepath='./cache/';#»º´æÄ¿Â¼
-$cachelife=28800;#·şÎñÆ÷¶Ë»º´æÎÄ¼şÖÜÆÚ(Ä¬ÈÏÒ»Ìì£©£¬µ¥Î»ÎªÃë
-$cli_cache=true; #ä¯ÀÀÆ÷»º´æ¿ª¹Ø
-$client_life=3600;#¿Í»§¶Ë£¨ä¯ÀÀÆ÷£©»º´æÎÄ¼şÖÜÆÚ£¬µ¥Î»ÎªÃë
-$nocache=array();#»º´æÅÅ³ıÊı×éÁĞ±í
+$enablecache=true;#æœåŠ¡ç«¯ç¼“å­˜å¼€å…³
+$cachepath='./cache/';#ç¼“å­˜ç›®å½•
+$cachelife=28800;#æœåŠ¡å™¨ç«¯ç¼“å­˜æ–‡ä»¶å‘¨æœŸ(é»˜è®¤ä¸€å¤©ï¼‰ï¼Œå•ä½ä¸ºç§’
+$cli_cache=true; #æµè§ˆå™¨ç¼“å­˜å¼€å…³
+$client_life=3600;#å®¢æˆ·ç«¯ï¼ˆæµè§ˆå™¨ï¼‰ç¼“å­˜æ–‡ä»¶å‘¨æœŸï¼Œå•ä½ä¸ºç§’
+$nocache=array();#ç¼“å­˜æ’é™¤æ•°ç»„åˆ—è¡¨
 
 function utf2html($str){
     $ret='';
@@ -69,7 +69,7 @@ function encodePage($input) {
 		$parts[4]=encodeBlock($parts[4])."\n</body>";
 		$parts[5]=encodeBlock($parts[5])."\n</html>\n";
 		#$parts[6]=encodeBlock($parts[6]);
-	}else return $input; #Ã÷»Û²¿·ÖÍøÒ³²»ÄÜÕıÈ·Æ¥Åä£¬Ö±½Ó·µ»Øinput¡£
+	}else return $input; #æ˜æ…§éƒ¨åˆ†ç½‘é¡µä¸èƒ½æ­£ç¡®åŒ¹é…ï¼Œç›´æ¥è¿”å›inputã€‚
 	return implode('',$parts);
 }
 function encodeBlock($input) {
