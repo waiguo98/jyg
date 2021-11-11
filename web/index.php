@@ -5,7 +5,7 @@ date_default_timezone_set("Asia/Shanghai");
 define('ALPHABET', 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789');
 $encrypt_page=true;
 $gzip_page=true;
-$mirror = 'jyg-com2.appspot.com';
+$mirror = '123.4g99.eu.org';
 $enablecache=false;#服务端缓存开关
 $cachepath='./cache/';#缓存目录
 $cachelife=28800;#服务器端缓存文件周期(默认一天），单位为秒
