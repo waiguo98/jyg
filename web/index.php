@@ -6,10 +6,10 @@ define('ALPHABET', 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567
 $encrypt_page=true;
 $gzip_page=true;
 $mirror = 'jyg-com2.appspot.com';
-$enablecache=true;#服务端缓存开关
+$enablecache=false;#服务端缓存开关
 $cachepath='./cache/';#缓存目录
 $cachelife=28800;#服务器端缓存文件周期(默认一天），单位为秒
-$cli_cache=true; #浏览器缓存开关
+$cli_cache=false; #浏览器缓存开关
 $client_life=3600;#客户端（浏览器）缓存文件周期，单位为秒
 $nocache=array();#缓存排除数组列表
 
